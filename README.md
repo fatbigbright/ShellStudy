@@ -1,4 +1,7 @@
 ShellStudy
 ==========
 
-shellå‘½ä»¤åŠshellç¼–ç¨‹ç¬”è®°ï¼Œå¾å¾æ›´æ–°
+shellÃüÁî¼°shell±à³Ì±Ê¼Ç£¬ÐìÐì¸üÐÂ¡£
+
+##2. ÈçºÎÎªÒ»¸öÄ¿Â¼ÏÂµÄËùÓÐjpgÍ¼Æ¬ÎÄ¼þÌí¼ÓÎÄ¼þÃûºó×º£¬²¢½«ÐÂµÄÐÂÍ¼Æ¬±£´æÔÚÏàÍ¬Ä¿Â¼ÏÂ£¿
+for file in *.jpg; do cp "$file" "${file%.jpg}_small.jpg"; done
