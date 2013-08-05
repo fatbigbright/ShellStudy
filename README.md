@@ -9,3 +9,7 @@ for file in *.jpg; do cp "$file" "${file%.jpg}_suffix.jpg"; done
 ######2.
 如何快速删除整个目录some_dir？
 rm -rf some_dir , r stands for 'recursive', f stands for 'force'.
+
+######3.
+How to open a window in Console of Ubuntu?   
+Using xdg-open command.
